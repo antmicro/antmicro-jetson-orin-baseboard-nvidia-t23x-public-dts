@@ -19,6 +19,9 @@
 #include "tegra234-p3768-0000+p3767-xxxx-nv-common.dtsi"
 #include "antmicro/tegra234-antmicro-job.dtsi"
 
+/* 4xOV5640 cameras */
+#include "antmicro/tegra234-antmicro-job-camera-ov5640.dtsi"
+
 / {
 	nvidia,dtbbuildtime = __DATE__, __TIME__;
 	compatible = "antmicro,job+p3767-0000", "nvidia,p3767-0000", "nvidia,tegra234", "nvidia,tegra23x";
