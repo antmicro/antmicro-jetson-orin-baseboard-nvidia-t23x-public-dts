@@ -33,7 +33,13 @@ dtb-y += tegra234-p3971-0000+p3701-0008-nv.dtb
 dtb-y += tegra234-p3971-0000+p3701-0008-nv-safety.dtb
 
 dtb-y += tegra234-p3767-0000-antmicro-job.dtb
+dtb-y += tegra234-p3767-0001-antmicro-job.dtb
+dtb-y += tegra234-p3767-0003-antmicro-job.dtb
+dtb-y += tegra234-p3767-0004-antmicro-job.dtb
 dtb-y += tegra234-p3767-0000-antmicro-job-ov9281.dtb
+dtb-y += tegra234-p3767-0001-antmicro-job-ov9281.dtb
+dtb-y += tegra234-p3767-0003-antmicro-job-ov9281.dtb
+dtb-y += tegra234-p3767-0004-antmicro-job-ov9281.dtb
 
 ifneq ($(dtb-y),)
 dtb-y := $(addprefix $(makefile-path)/,$(dtb-y))
