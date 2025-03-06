@@ -32,6 +32,8 @@ dtb-y += tegra234-p3971-0000+p3701-0000-nv.dtb
 dtb-y += tegra234-p3971-0000+p3701-0008-nv.dtb
 dtb-y += tegra234-p3971-0000+p3701-0008-nv-safety.dtb
 
+dtb-y += tegra234-p3767-0000-antmicro-job.dtb
+
 ifneq ($(dtb-y),)
 dtb-y := $(addprefix $(makefile-path)/,$(dtb-y))
 endif
